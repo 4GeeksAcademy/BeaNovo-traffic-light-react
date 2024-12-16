@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,46 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.red,
+.yellow,
+.green,
+.purple {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: none;
+    background-color: gray;
+    cursor: pointer;
+}
+
+.buttona {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.buttonb {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+    border-radius: 5px;
+}
